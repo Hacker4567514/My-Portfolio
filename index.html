@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .right {
+        justify-content: space-around;
+        font-size: 1 rem;
+      }
+      .left {
+        margin: 11px;
+        padding: 12px;
+        margin-top: -1.1%;
+        position: relative;
+        height: 35px;
+        width: 25px;
+      }
+      nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 56px;
+        background-color: rgb(5, 37, 89);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      ul li a:hover {
+        color: blueviolet;
+        font-size: 1.01rem;
+      }
+      body {
+        background: rgb(4, 1, 42);
+        font-family: "Poppins", sans-serif;
+        color: white;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 80px 0;
+      }
+      .firstsection > div {
+        width: 36%;
+      }
+      .leftsection {
+        width: 30%;
+        font-size: 3rem;
+      }
+      .leftsection .btn {
+        padding: 10px;
+        background: rgb(48, 37, 94);
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .rightsection {
+        width: 50%;
+        margin: 53px 0;
+      }
+      .rightsection img {
+        width: 50vh;
+      }
+      .purple {
+        color: blueviolet;
+      }
+      #element {
+        color: blueviolet;
+      }
+      .secondsection {
+        width: 80%;
+        margin: 90px;
+        height: 80vh;
+      }
+      .secondsection h1 {
+        font-size: 1.9rem;
+      }
+
+      .secondsection .box {
+        background: white;
+        width: 75vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .Text-gray {
+        color: grey;
+      }
+      .secondsection .vertical {
+        height: 90px;
+        width: 1px;
+        background: white;
+        margin: 0 115px;
+      }
+      hr {
+        margin: 23px;
+      }
+      .image-top {
+        width: 80px;
+        position: relative;
+        top: -50px;
+        left: -38px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 22px;
+        color: gray;
+        width: 117px;
+        font-size: 10px;
+        left: -45px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 14px;
+        width: 150px;
+        left: -45px;
+      }
+      footer {
+        background: rgb(11, 9, 28);
+        height: 233px;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer > div {
+        width: 150px;
+      }
+      footer .footer-first {
+        font-size: 1.1rem;
+      }
+      footer .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 23px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <img src="My_Logo (2).png" alt="" height="60px" width="80"/>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact me</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="firstsection">
+        <div class="leftsection">
+          Hi, My name is<span class="purple"> Rohit</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="developer.png" alt="" />
+        </div>
+      </div>
+      <hr />
+      <div class="secondsection">
+        <span class="Text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="work.png" alt="" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum,
+              officia? Distinctio quas est reiciendis mollitia.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="work.png" alt="" />
+            <div class="vertical-title">Node.js Developer (2012-2014)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum,
+              officia? Distinctio quas est reiciendis mollitia.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="work.png" alt="" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum,
+              officia? Distinctio quas est reiciendis mollitia.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="work.png" alt="" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum,
+              officia? Distinctio quas est reiciendis mollitia.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="work.png" alt="" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum,
+              officia? Distinctio quas est reiciendis mollitia.
+            </div>
+          </div>
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first"><h4>Rohit Developer's Portfolio</h4></div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright &#169;rohitportfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["<i>Web</i> Developer", "Editor", "&amp; Coder."],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
